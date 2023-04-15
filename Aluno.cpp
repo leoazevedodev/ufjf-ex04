@@ -27,8 +27,13 @@ void Aluno::leNotas()
 
 double Aluno::calculaMedia()
 {
-    // Implemente sua solucao aqui
-    return 0;
+    float soma = 0;
+    for(int i = 0; i < 7; i++)
+    {
+        soma = soma + notas[i];
+    }
+
+    return soma/7;
 }
 
 // ----------------------------------------------------------------------------
