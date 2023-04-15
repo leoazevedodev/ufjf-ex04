@@ -31,13 +31,16 @@ class Aluno
         // exercicio 5
         void leFrequencia();
 
+        // exercicio 6
+
+        void getRelatorio();
+
     private:
         int idade;
         string nome, matricula;
         double notas[7];
 
         // exercicio 3
-        // implemente aqui
 
         // exercicio 4
         bool frequencia[7];

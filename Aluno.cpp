@@ -87,16 +87,48 @@ void Aluno::leFrequencia()
         cin >> aux;
         if(aux == 0)
         {
-            frequencia[i] == false;
+            frequencia[i] = false;
         }
         else if (aux == 1)
         {
-            frequencia[i] == true;
+            frequencia[i] = true;
         }
-        else {
+        else
+        {
             frequencia[i] = false;
             cout<< "Vc nao pode colocar valores diferentes de 1 ou 0" << endl;
         }
     }
 }
+
+// ----------------------------------------------------------------------------
+// Exercicio 6
+// ----------------------------------------------------------------------------
+
+void Aluno::getRelatorio()
+{
+    cout << "-----------------------------------------" << endl;
+    cout << "O Nome do aluno e: " << nome << endl;
+    cout << "A Idade do aluno e: " << idade << endl;
+    cout << "A Matricula do aluno e: " << matricula << endl;
+    for(int i = 0; i < 7; i++)
+    {
+        cout << "Disciplina: " << i + 1 << endl;
+        if(frequencia[i] == true)
+        {
+            cout << "Frequente // " ;
+        }
+        else {
+            cout << "Nao Frequente // " ;
+        }
+        if(notas[i] >= 60)
+        {
+            cout << "Aprovado" << endl;
+        } else {
+            cout << "Reprovado" << endl;
+        }
+    }
+    cout << "-----------------------------------------" << endl;
+}
+
 
