@@ -11,7 +11,7 @@ int main()
     // ------------------------------------------------------------------------
     // EXERCICIO 1
     // ------------------------------------------------------------------------
-    Aluno a("Carlos", "201566123AB");
+    Aluno a("Carlos", "201566123AB", 20);
 
     // leitura das notas do aluno
     a.leNotas();
@@ -23,8 +23,8 @@ int main()
     // EXERCICIO 3
     // ------------------------------------------------------------------------
 
-    // Implemente aqui
-
+    cout << "A idade do aluno e: " << a.getIdade() << endl;
+    cout << "A Matricula do aluno e: " << a.getMatricula() << endl;
 
     // ------------------------------------------------------------------------
     // EXERCICIO 5

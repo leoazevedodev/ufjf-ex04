@@ -9,7 +9,7 @@ using namespace std;
 class Aluno
 {
     public:
-        Aluno(string n, string m);
+        Aluno(string n, string m, int i);
         ~Aluno();
 
         // operacoes
@@ -22,10 +22,10 @@ class Aluno
 
         // exercicio 2
         // implemente aqui
-        void setIdade(int _idade);
+        void setIdade(int i);
         int getIdade();
 
-        void setMatricula(string _matricula);
+        void setMatricula(string m);
         string getMatricula();
 
         // exercicio 5

@@ -1,10 +1,11 @@
 #include "Aluno.h"
 
-Aluno::Aluno(string n, string m)
+Aluno::Aluno(string n, string m, int i)
 {
     cout << "Criando aluno" << endl;
     nome = n;
     matricula = m;
+    idade = i;
 }
 
 Aluno::~Aluno()
@@ -52,9 +53,9 @@ string Aluno::getNome()
 // Exercicio 2
 // ----------------------------------------------------------------------------
 
-void Aluno::setIdade(int _idade)
+void Aluno::setIdade(int i)
 {
-    idade = _idade;
+    idade = i;
 }
 
 int Aluno::getIdade()
@@ -62,9 +63,9 @@ int Aluno::getIdade()
     return idade;
 }
 
-void Aluno::setMatricula(string _matricula)
+void Aluno::setMatricula(string m)
 {
-    matricula = _matricula;
+    matricula = m;
 }
 
 string Aluno::getMatricula()
