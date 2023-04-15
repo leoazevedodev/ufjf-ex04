@@ -29,7 +29,7 @@ class Aluno
         string getMatricula();
 
         // exercicio 5
-        // implemente aqui
+        void leFrequencia();
 
     private:
         int idade;
@@ -40,7 +40,7 @@ class Aluno
         // implemente aqui
 
         // exercicio 4
-        // implemente aqui
+        bool frequencia[7];
 };
 
 #endif // ALUNO_H

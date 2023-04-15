@@ -74,8 +74,29 @@ string Aluno::getMatricula()
 }
 
 // ----------------------------------------------------------------------------
-// Exercicio 3
+// Exercicio 5
 // ----------------------------------------------------------------------------
 
-// Implemente aqui sua solucao
+void Aluno::leFrequencia()
+{
+    cout << "Digite 1 para true e 0 para false" << endl;
+    int aux;
+    for(int i =0; i< 7; i++)
+    {
+        cout << "Disciplina " << i + 1 << " ele foi frequente?: ";
+        cin >> aux;
+        if(aux == 0)
+        {
+            frequencia[i] == false;
+        }
+        else if (aux == 1)
+        {
+            frequencia[i] == true;
+        }
+        else {
+            frequencia[i] = false;
+            cout<< "Vc nao pode colocar valores diferentes de 1 ou 0" << endl;
+        }
+    }
+}
 
