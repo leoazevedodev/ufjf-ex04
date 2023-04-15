@@ -52,8 +52,25 @@ string Aluno::getNome()
 // Exercicio 2
 // ----------------------------------------------------------------------------
 
-// Implemente aqui a sua solucao
+void Aluno::setIdade(int _idade)
+{
+    idade = _idade;
+}
 
+int Aluno::getIdade()
+{
+    return idade;
+}
+
+void Aluno::setMatricula(string _matricula)
+{
+    matricula = _matricula;
+}
+
+string Aluno::getMatricula()
+{
+    return matricula;
+}
 
 // ----------------------------------------------------------------------------
 // Exercicio 3

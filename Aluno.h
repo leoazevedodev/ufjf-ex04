@@ -22,6 +22,11 @@ class Aluno
 
         // exercicio 2
         // implemente aqui
+        void setIdade(int _idade);
+        int getIdade();
+
+        void setMatricula(string _matricula);
+        string getMatricula();
 
         // exercicio 5
         // implemente aqui
