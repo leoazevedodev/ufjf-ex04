@@ -11,39 +11,39 @@ int main()
     // ------------------------------------------------------------------------
     // EXERCICIO 1
     // ------------------------------------------------------------------------
-    Aluno a("Carlos", "201566123AB", 20);
+        //Aluno a("Carlos", "201566123AB", 20);
 
-    // leitura das notas do aluno
-    a.leNotas();
-    double m = a.calculaMedia();
+        //a.leNotas();
+        //double m = a.calculaMedia();
 
-    cout << "Media do aluno: " << m << endl;
-
+        //cout << "Media do aluno: " << m << endl;
     // ------------------------------------------------------------------------
     // EXERCICIO 3
     // ------------------------------------------------------------------------
-
-    cout << "A idade do aluno e: " << a.getIdade() << endl;
-    cout << "A Matricula do aluno e: " << a.getMatricula() << endl;
-
+        //cout << "A idade do aluno e: " << a.getIdade() << endl;
+        //cout << "A Matricula do aluno e: " << a.getMatricula() << endl;
     // ------------------------------------------------------------------------
     // EXERCICIO 5
     // ------------------------------------------------------------------------
-
-    a.leFrequencia();
-
-
+        //a.leFrequencia();
     // ------------------------------------------------------------------------
     // EXERCICIO 6
     // ------------------------------------------------------------------------
-    cout << "Imprimindo Relatorio" << endl;
-    a.getRelatorio();
-
+        //cout << "Imprimindo Relatorio" << endl;
+        //a.getRelatorio();
     // ------------------------------------------------------------------------
     // EXERCICIO 7
     // ------------------------------------------------------------------------
 
-    //Prova p(3);
+        Prova p(5);
+        cout << "Montando Prova, digite os valores das quetoes" << endl;
+        p.leNotas();
+
+        cout << "Calculando a Nota Final" << endl;
+        p.calculaNotaFinal();
+
+        cout << "A Nota fianl da prova e: " << p.obtemNotaFinal() << endl;
+
 
 
     return 0;

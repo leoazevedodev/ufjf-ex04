@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1681595400 source:c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\main.cpp
+1681671368 source:c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\main.cpp
 	<iostream>
 	"Aluno.h"
 	"Prova.h"
@@ -8,12 +8,12 @@
 	<iostream>
 	<string>
 
-1504532744 c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\prova.h
+1681670313 c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\prova.h
 	<iostream>
 
-1447842593 source:c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\prova.cpp
+1681672625 source:c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\prova.cpp
 	"Prova.h"
 
-1681595765 source:c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\aluno.cpp
+1681595906 source:c:\users\leona\documents\ufjf\ed\ex04 - tad\ex01\aluno.cpp
 	"Aluno.h"
 
